@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <script src="script.js" defer></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 <body>
-    
+    <div class="calculator" role="application" aria-label="Calculator">  
+        <!-- Display with dummy numbers (so it looks correct) -->
+        <div id="display" class="display" aria-live="polite">1234</div>
+
+        <!-- Buttons -->
+        <div class="keys">
+            <!-- Row 1 -->
+            <button class="btn-clear" data-action="clear">Clear</button>
+            <button class="btn-equals" data-action="equals">=</button>
+
+            <!-- Row 2 -->
+            <button class="btn-digit" data-action="digit" data-value="7">7</button>
+            <button class="btn-digit" data-action="digit" data-value="8">8</button>
+            <button class="btn-digit" data-action="digit" data-value="9">9</button>
+            <button class="btn-operator" data-action="operator" data-value="-">-</button>
+
+            <!-- Row 3 -->
+            <button class="btn-digit" data-action="digit" data-value="4">4</button>
+            <button class="btn-digit" data-action="digit" data-value="5">5</button>
+            <button class="btn-digit" data-action="digit" data-value="6">6</button>
+            <button class="btn-operator" data-action="operator" data-value="+">+</button>
+
+            <!-- Row 4 -->
+            <button class="btn-digit" data-action="digit" data-value="1">1</button>
+            <button class="btn-digit" data-action="digit" data-value="2">2</button>
+            <button class="btn-digit" data-action="digit" data-value="3">3</button>
+            <button class="btn-operator" data-action="operator" data-value="*">x</button>
+
+            <!-- Row 5 -->
+            <button class="btn-digit" data-action="digit" data-value=".">.</button>
+            <button class="btn-digit btn-0" data-action="digit" data-value="0">0</button>
+            <button class="btn-operator" data-action="operator" data-value="/">÷</button>
+        </div>
+    </div>
 </body>
 </html>
