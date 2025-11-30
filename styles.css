@@ -18,13 +18,13 @@ html,body { height:100%; margin:0; font-family: Inter, system-ui, -apple-system,
     font-size: 2.2rem;
     color: #222;
     text-shadow: 0 1px 0 #fff, 0 0 10px rgba(0,0,0,0.2);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* Calculator wrapper */
 .calculator {
     width: 320px;
-    background: #413665;
+    background: #7d8194;
     border-radius: 12px;
     padding: 16px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.35);
